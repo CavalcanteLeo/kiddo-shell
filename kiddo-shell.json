@@ -1,0 +1,39 @@
+{
+	"name": "polenghi",
+	"color": "0 0 130",
+	"terminal": "iTerm",
+	"steps": [
+
+		{
+			"position": "main",
+			"bagde": "",
+			"command": [
+				"git status",
+				"git pull"
+			]
+		},
+		{
+			"position": "bottom",
+			"bagde": "Polenghi",
+			"command": [
+				"yarn start:local"
+			]
+		},
+		{
+			"position": "right",
+			"bagde": "",
+			"command": [
+				"gulp build && gulp buildCms && gulp watchAll"
+			]
+		},
+		{
+			"position": "right",
+			"bagde": "",
+			"command": [
+				"mongod"
+			]
+		}
+
+
+	]
+}

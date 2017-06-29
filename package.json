@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Start your projects in the easy way",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "kiddo-shell": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/CavalcanteLeo/kiddo-shell/issues"
   },
-  "homepage": "https://github.com/CavalcanteLeo/kiddo-shell#readme"
+  "homepage": "https://github.com/CavalcanteLeo/kiddo-shell#readme",
+  "dependencies": {
+    "pjson": "^1.0.8",
+    "shelljs": "^0.7.8",
+    "tabtab": "^2.2.2",
+    "terminal-tab": "0.0.4",
+    "ttab": "^0.6.0"
+  }
 }
